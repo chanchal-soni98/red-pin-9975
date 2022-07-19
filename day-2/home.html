@@ -1,0 +1,303 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>KindMeal.my</title>
+        <style>
+            *{
+                font-family: Arial, Helvetica, sans-serif;
+                
+            }
+            #header{
+                width: 80%;
+                margin: auto;
+                margin-top: 20px;
+                display: flex;
+                justify-content: space-between;
+            }
+            #header img{
+                height: 40px;
+
+            }
+            #connect{
+                display: grid;
+                gap:10px;
+                grid-template-columns: repeat(4,1fr);
+            }
+            #connect button{
+                height: 25px;
+            }
+            nav{
+                margin-top: 5px;
+                background-color: #2bb673;
+                padding: 10px;
+            }
+            #navbar{
+                width: 80%;
+                margin: auto;
+                display: flex;
+                justify-content: space-between;
+                color: white;
+            }
+            #latestNews{
+                width: 80%;
+                margin: 50px auto 50px auto;
+                display: grid;
+                grid-template-columns: repeat(5,1fr);
+                gap: 20px;
+                box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+                text-align: center;
+            }
+            #latestNews img,#getDeal img{
+                width: 90%;
+                height: 150px;
+                margin-top: 10px;
+                border-radius: 10px;
+                
+            }
+            #latestNews p{
+                color: lightgray;
+                font-size: 0.8rem;
+            }
+            #latestNews h3{
+                color: grey;
+            }
+            #intro{
+                width: 80%;
+                margin: auto;
+                text-align: center;
+            }
+            #intro>h1{
+                color: darkgray;
+            }
+            #intro p1, #getDeal p1{
+                color: grey;
+            }
+            #intro p,#getDeal p{
+                font-size: 22px;
+                color: grey;
+            }
+            #brought>img{
+                height: 20px;
+            }
+            #getDeal{
+                width: 100%;
+                margin: 50px auto 50px auto;
+                display: grid;
+                grid-template-columns: repeat(4,1fr);
+                gap: 20px;
+                text-align: center; 
+            }
+            #getDeal>div{
+                box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+                padding: 20px;
+                border-radius: 10px;
+            }
+            #getDeal img{
+                margin: 15px;
+                width: 100px;
+                height: 100px;
+            }
+            #joinBtn{
+                margin: 20px;
+                height: 80px;
+                width: 200px;
+                border-radius: 10px;
+                background-color: red;
+                color: white;
+                border: 0px;
+            }
+            #last>img{
+                width: 80%;
+                margin-left: 10%;
+            }
+   
+           
+
+        </style>
+    </head>
+    <body>
+        <header id="header">
+            <img src="https://www.kindmeal.my/images/logo-kindmeal.png"/>
+            <div id="socialMedia">
+                <img src="https://www.kindmeal.my/images/follow_blog_grey.png"/>
+                <img src="https://www.kindmeal.my/images/follow_facebook_grey.png"/>
+                <img src="https://www.kindmeal.my/images/follow_twitter_grey.png"/>
+            </div>
+            <div id="connect">
+                <button>Login</button>
+                <button>Facebook</button>
+                <button>Email</button>
+                <button>Signup</button>
+            </div>
+        </header>
+        <nav>
+            <div id="navbar">
+            <div>Home</div>
+            <div>Meal Deals</div>
+            <div>KindMoments</div>
+            <div>Hot Picks</div>
+            <div>Recipes</div>
+            <div>Directory</div>
+            <div>Article</div>
+            <div>Help</div>
+            </div>
+        </nav>
+        <div id="latestNews">
+            <div>
+                <img src="https://external-xsp1-2.xx.fbcdn.net/emg1/v/t13/4527024197553285358?url=https%3A%2F%2Fwww.aljazeera.com%2Fwp-content%2Fuploads%2F2022%2F07%2F000_32ET4KC.jpg%3Fresize%3D1200%252C630&fb_obo=1&utld=aljazeera.com&stp=c0.5000x0.5000f_dst-emg0_p630x630_q75&ccb=13-1&oh=00_AT_0DKDjWd8j9FjvpMrzVdBOzPWDyfcnkP6B7S49I8NiRw&oe=62D8319C&_nc_sid=c504da"/>
+                <p>Malaysia Seizes Elephant Tusks Pangolin SCales In Major Bus.</p>
+            </div>
+            <div>
+                <img src="https://scontent-xsp1-2.xx.fbcdn.net/v/t15.5256-10/290389529_722462468872404_8153272933717469155_n.jpg?stp=dst-jpg_s720x720&_nc_cat=107&ccb=1-7&_nc_sid=ad6a45&_nc_ohc=dw13NtSGycIAX9xVvi0&_nc_ht=scontent-xsp1-2.xx&edm=ALdPpPkEAAAA&oh=00_AT8HwjJpeH-vkWqTDhci5agtHofFG6h_6SI0oye9ZvIcLg&oe=62DBD1F2"/>
+                <p>Lushy Nut Butter</p>
+            </div>
+            <div>
+                <img src="https://scontent-xsp1-2.xx.fbcdn.net/v/t15.5256-10/258283240_969139953960892_9020817108506674674_n.jpg?stp=dst-jpg_s720x720&_nc_cat=109&ccb=1-7&_nc_sid=ad6a45&_nc_ohc=HS6udn0cEsYAX9fkImj&_nc_ht=scontent-xsp1-2.xx&edm=ALdPpPkEAAAA&oh=00_AT-19qwVHEh-2x-Y45rhq-bDeC2p5-ErlHKoFQ2AlehPNQ&oe=62DC6FFC"/>
+                <p>Rescue Cow Didn't Have Any Friends Until He Met A Dalmatian</p>
+            </div>
+            <div>
+                <img src="https://external-xsp1-2.xx.fbcdn.net/emg1/v/t13/14374414952122747506?url=https%3A%2F%2Fichef.bbci.co.uk%2Fnews%2F1024%2Fbranded_news%2F13F40%2Fproduction%2F_125882718_p0clg9dj.jpg&fb_obo=1&utld=co.uk&stp=c0.5000x0.5000f_dst-emg0_p576x576_q75&ccb=13-1&oh=00_AT-YNtU7CH80eRf3BWUnNWtPsrfiDVkrryayDZW5wAPCzQ&oe=62D802AC&_nc_sid=c504da"/>
+                <p>The Moment A Kangaroo Is Rescued From Flood Waters</p>
+            </div>
+            <div>
+                <img src="https://scontent-xsp1-2.xx.fbcdn.net/v/t15.5256-10/291367533_3295307050795693_336542115864642148_n.jpg?stp=dst-jpg_p720x720&_nc_cat=1&ccb=1-7&_nc_sid=ad6a45&_nc_ohc=lhS2TWdjkiwAX9-n1US&_nc_ht=scontent-xsp1-2.xx&edm=ALdPpPkEAAAA&oh=00_AT_b9w04RyYxdxb6p8iJWo0erL-YM24TBtpwQnViqJ-JVQ&oe=62DBD706"/>
+                <p>River Otters Roll Around In Tub Of Ice</p>
+            </div>
+        </div>
+
+        <div id="latestNews">
+            <div>
+                <img src="https://www.kindmeal.my/photos/moment/24/24178-46248-s.jpg"/>
+                <h3>Veggie Cntury</h3>
+                <p>VyVian</p>
+            </div>
+            <div>
+                <img src="https://www.kindmeal.my/photos/moment/24/24177-46243-s.jpg"/>
+                <h3>ff8783</h3>
+                <p>MayNg</p>
+            </div>
+            <div>
+                <img src="https://www.kindmeal.my/photos/moment/24/24175-46239-s.jpg"/>
+                <h3>Raw Chef Yin</h3>
+                <p>YinYinBoey</p>
+            </div>
+            <div>
+                <img src="https://www.kindmeal.my/photos/moment/24/24174-46238-s.jpg"/>
+                <h3>Raw Chef Yin</h3>
+                <p>YinYinBoey</p>
+            </div>
+            <div>
+                <img src="https://www.kindmeal.my/photos/moment/24/24173-46236-s.jpg"/>
+                <h3>Jujube Vegetarian House</h3>
+                <p>LimKengTiong</p>
+            </div>
+        </div>
+
+        <div id="latestNews">
+            <div>
+                <img src="https://www.kindmeal.my/photos/item/0/493-5924-s.jpg"/>
+                <p>Hawaii Pizza</p>
+            </div>
+            <div>
+                <img src="https://www.kindmeal.my/photos/item/0/419-4837-s.jpg"/>
+                <p>Spaghetti ala Fungi</p>
+            </div>
+            <div>
+                <img src="https://www.kindmeal.my/photos/item/0/213-2140-s.jpg"/>
+                <p>Mushroom Risotto</p>
+            </div>
+            <div>
+                <img src="https://www.kindmeal.my/photos/item/0/165-1729-s.jpg"/>
+                <p>Sweet Potato Naruto Roll</p>
+            </div>
+            <div>
+                <img src="https://www.kindmeal.my/photos/item/0/275-2837-s.jpg"/>
+                <p>Carrot Cake</p>
+            </div>
+        </div>
+
+        <div id="latestNews">
+            <div>
+                <img src="https://www.kindmeal.my/photos/member/39/39879-m.jpg"/>
+                <p>DebbieThong</p>
+            </div>
+            <div>
+                <img src="https://www.kindmeal.my/photos/member/37/37733-m.jpg"/>
+                <p>ChingYingJeeJJ</p>
+            </div>
+            <div>
+                <img src="https://www.kindmeal.my/photos/member/41/41359-m.jpg"/>
+                <p>FoodLover427</p>
+            </div>
+            <div>
+                <img src="https://www.kindmeal.my/photos/member/10/10538-m.jpg"/>
+                <p>CarmenLee</p>
+            </div>
+            <div>
+                <img src="https://www.kindmeal.my/photos/member/14/14258-m.jpg"/>
+                <p>WongSiaoYing</p>
+            </div>
+        </div>
+
+        <div id="intro">
+            
+            <h1>Introducing The World's 1st Meat-Free Lifestyle Platform</h1>
+            <div id="brought">
+                <p1>Brought to you by</p1>
+                <img src="https://www.kindmeal.my/images/logo-petfinder.png"/>
+            </div>
+            <p>Instant coupon & dining. No upfront coupon payment, booking or printing.</p>
+        
+            <div id="getDeal">
+                
+                <div>
+                    <img src="https://www.kindmeal.my/images/intro_deal.png"/>
+                    <p>Get Great Deals</p>
+                    <p1>Show our FREE digital coupons to instantly enjoy exciting deals</p1>
+                </div>
+
+                <div>
+                    <img src="https://www.kindmeal.my/images/intro_kindmoment.png"/>
+                    <p>Share KindMoments</p>
+                    <p1>Spread the joy by sharing your yummy dining moments</p1>
+                </div>
+
+                <div>
+                    <img src="https://www.kindmeal.my/images/intro_menu.png"/>
+                    <p>Discover Delicious Food</p>
+                    <p1>Explore the latest exquisite offerings and creative menus</p1>
+                </div>
+
+                <div>
+                    <img src="https://www.kindmeal.my/images/intro_friends.png"/>
+                    <p>Meet Food Lovers</p>
+                    <p1>Make new, compassionate friends and share great food tips</p1>
+                </div>
+            
+            </div>
+
+            <p1>Any restaurant or cafe can join KindMeal, vegetarian or not, as long as the deals and menu featured are meat-free.
+                Enjoy a great meat-free dining experience. Easily save animal lives, health, environment and money now!
+            </p1><br>
+            <button id="joinBtn">
+                <h2>Join KindMeal Now</h2>
+                <p1>Your tasty journey begins here</p1>
+            </button>
+            <p>As Featured In</p>
+            <img src="https://www.kindmeal.my/images/media-feature2.png"/>
+            
+        </div>
+        <div id="last" style="background-color: gainsboro;">
+            <img src="https://www.kindmeal.my/images/banner_whykindmeal.png"/>
+        </div>
+
+
+
+    </body>
+</html>
+<script>
+
+</script>
