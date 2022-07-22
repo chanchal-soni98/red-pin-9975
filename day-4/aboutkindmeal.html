@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>aboutkindmeal</title>
+    </head>
+    <style>
+                    *{
+                font-family: Arial, Helvetica, sans-serif;
+                
+            }
+            #header{
+                width: 80%;
+                margin: auto;
+                margin-top: 20px;
+                display: flex;
+                justify-content: space-between;
+            }
+            #header img{
+                height: 40px;
+
+            }
+            #connect{
+                display: grid;
+                gap:10px;
+                grid-template-columns: repeat(4,1fr);
+            }
+            #connect button{
+                height: 25px;
+            }
+            nav{
+                margin-top: 5px;
+                background-color: #2bb673;
+                padding: 10px;
+            }
+            #navbar{
+                width: 80%;
+                margin: auto;
+                display: flex;
+                justify-content: space-between;
+                color: white;
+            }
+        #main{
+            display: grid;
+            width: 80%;
+            margin: auto;
+            gap: 30px;
+            grid-template-columns: 20% 75%;
+        }
+        #one{
+            
+            text-align: center;
+        }
+        #one>div{
+            margin: 20px;
+            padding: 20px;
+            border-radius: 5%;
+            box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+        }
+        #one>div>img{
+            margin: auto;
+            width: 50%;
+            height: 50%;
+        }
+        #two{
+            margin-top: 20px;
+            padding: 30px;
+            box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+        }
+        #two>h1,#two>h2,#two>p{
+            margin: 25px;
+        }
+        #two>img{
+            width: 80%;
+            margin: auto 10% auto 10%;
+            border-radius: 5%;
+        }
+
+        button{
+            border: 0px;
+            color: White;
+            font-size: larger;
+            
+            width: 100px;
+            height: 40px;
+            margin: auto 40% auto 40%;
+            border-radius: 5%;
+        }
+        #social{
+            display: grid;
+            grid-template-columns: 70px 70px 70px;
+            gap: 40px
+        }
+        p{
+            color: gray;
+        }
+        #last>img{
+                width: 80%;
+                margin-left: 10%;
+                height: 70%;
+            }
+            #footer{
+                background-color: #2bb673;
+                width: 100%;
+            }
+            #footer>#foot{
+                
+                display: grid;
+                gap: 30px;
+                color: white;
+                width: 80%;
+                margin: auto auto auto 10%;
+                grid-template-columns: repeat(5,1fr);
+            }
+
+    </style>
+    <body>
+        <header id="header">
+            <img src="https://www.kindmeal.my/images/logo-kindmeal.png"/>
+            <div id="socialMedia">
+                <img src="https://www.kindmeal.my/images/follow_blog_grey.png"/>
+                <img src="https://www.kindmeal.my/images/follow_facebook_grey.png"/>
+                <img src="https://www.kindmeal.my/images/follow_twitter_grey.png"/>
+            </div>
+            <div id="connect">
+                <button>Login</button>
+                <button>Facebook</button>
+                <button>Email</button>
+                <button>Signup</button>
+            </div>
+        </header>
+        <nav>
+            <div id="navbar">
+            <div>Home</div>
+            <div>Meal Deals</div>
+            <div>KindMoments</div>
+            <div>Hot Picks</div>
+            <div>Recipes</div>
+            <div>Directory</div>
+            <div>Article</div>
+            <div>Help</div>
+            </div>
+        </nav>
+        <div id="main">
+            <div id="one">
+                <div>
+                    <img src="https://www.kindmeal.my/images/join_normal.png"/><br>
+                    <a href="helppage.html">General Help</a>
+                </div>
+                <div>
+                    <img src="https://www.kindmeal.my/images/join_shop.png"/><br>
+                    <a href="advertising.html">Merchant Help</a>
+                </div>
+                <div>
+                    <img src="https://www.kindmeal.my/images/icon-megaphone.png"/><br>
+                    <a href="advertising.html">Advertising</a>
+                </div>
+                <div>
+                    <img src="https://www.kindmeal.my/images/about_us.png"/><br>
+                    <a href="">About KindMeal</a>
+                </div>
+                <div>
+                    <img src="https://www.kindmeal.my/images/about_hero.png"/><br>
+                    <a href="">Superhero Guide</a>
+                </div>
+                <div>
+                    <img src="https://www.kindmeal.my/images/contact.png"/><br>
+                    <a href="">Contact Us</a>
+                </div>
+            </div>
+
+            <div id="two">
+                <h1>The World's 1st Meat-Free Lifestyle Platform</h1>
+                <div id="social">
+                    <button><a href="https://twitter.com/intent/tweet?original_referer=https%3A%2F%2Fwww.kindmeal.my%2F&ref_src=twsrc%5Etfw%7Ctwcamp%5Ebuttonembed%7Ctwterm%5Eshare%7Ctwgr%5E&text=KindMeal%27s%20Mission%20and%20Vision%20%7C%20KindMeal.my&url=http%3A%2F%2FKM.my%2Fabout&via=KindMeal">Tweet</a></button>
+                    <button><a href="https://www.facebook.com/login.php?skip_api_login=1&api_key=292733157519852&signed_next=1&next=https%3A%2F%2Fwww.facebook.com%2Fv7.0%2Fdialog%2Fshare%3Fchannel%3Dhttps%253A%252F%252Fstaticxx.facebook.com%252Fx%252Fconnect%252Fxd_arbiter%252F%253Fversion%253D46%2523cb%253Df11dbb457af41f8%2526domain%253Dwww.kindmeal.my%2526is_canvas%253Dfalse%2526origin%253Dhttps%25253A%25252F%25252Fwww.kindmeal.my%25252Ff2a6b1fdfd7254%2526relation%253Dopener%26redirect_uri%3Dhttps%253A%252F%252Fstaticxx.facebook.com%252Fx%252Fconnect%252Fxd_arbiter%252F%253Fversion%253D46%2523cb%253Df390e2e520ed32c%2526domain%253Dwww.kindmeal.my%2526is_canvas%253Dfalse%2526origin%253Dhttps%25253A%25252F%25252Fwww.kindmeal.my%25252Ff2a6b1fdfd7254%2526relation%253Dopener%2526frame%253Df30227f1362cf8%2526result%253D%252522xxRESULTTOKENxx%252522%26display%3Dpopup%26href%3Dhttps%253A%252F%252Fwww.kindmeal.my%252Fabout.htm%26client_id%3D292733157519852%26ret%3Dlogin%26sdk%3Djoey%26fallback_redirect_uri%3Dhttps%253A%252F%252Fwww.kindmeal.my%252Fabout.htm&cancel_url=https%3A%2F%2Fstaticxx.facebook.com%2Fx%2Fconnect%2Fxd_arbiter%2F%3Fversion%3D46%23cb%3Df390e2e520ed32c%26domain%3Dwww.kindmeal.my%26is_canvas%3Dfalse%26origin%3Dhttps%253A%252F%252Fwww.kindmeal.my%252Ff2a6b1fdfd7254%26relation%3Dopener%26frame%3Df30227f1362cf8%26result%3D%257B%2522error_code%2522%253A4201%252C%2522error_message%2522%253A%2522User%2Bcanceled%2Bthe%2BDialog%2Bflow%2522%257D%26error_code%3D4201%26error_message%3DUser%2Bcanceled%2Bthe%2BDialog%2Bflow%26e2e%3D%257B%257D&display=popup&locale=en_GB">Share</a></button>
+                    <button><a href="https://www.facebook.com/login.php?api_key=127760087237610&skip_api_login=1&display=popup&social_plugin_action=like&referrer=https%3A%2F%2Fwww.kindmeal.my%2F&social_plugin=like&next=https%3A%2F%2Fwww.facebook.com%2Fdialog%2Fplugin.optin%3F_path%3Dplugin.optin%26app_id%3D127760087237610%26client_id%3D127760087237610%26display%3Dpopup%26secure%3Dtrue%26social_plugin%3Dlike%26return_params%3D%257B%2522action%2522%253A%2522like%2522%252C%2522app_id%2522%253A%2522292733157519852%2522%252C%2522channel%2522%253A%2522https%253A%255C%252F%255C%252Fstaticxx.facebook.com%255C%252Fx%255C%252Fconnect%255C%252Fxd_arbiter%255C%252F%253Fversion%253D46%2523cb%253Df33d52e55fdf418%2526domain%253Dwww.kindmeal.my%2526is_canvas%253Dfalse%2526origin%253Dhttps%255Cu00253A%255Cu00252F%255Cu00252Fwww.kindmeal.my%255Cu00252Ff2a6b1fdfd7254%2526relation%253Dparent.parent%2522%252C%2522container_width%2522%253A%252274%2522%252C%2522height%2522%253A%252223%2522%252C%2522href%2522%253A%2522https%253A%255C%252F%255C%252Fwww.kindmeal.my%255C%252Fabout.htm%2522%252C%2522layout%2522%253A%2522button_count%2522%252C%2522locale%2522%253A%2522en_US%2522%252C%2522sdk%2522%253A%2522joey%2522%252C%2522share%2522%253A%2522false%2522%252C%2522show_faces%2522%253A%2522false%2522%252C%2522width%2522%253A%2522130%2522%252C%2522ret%2522%253A%2522optin%2522%252C%2522act%2522%253A%2522connect%2522%257D%26login_params%3D%257B%2522social_plugin_action%2522%253A%2522like%2522%252C%2522referrer%2522%253A%2522https%253A%255C%252F%255C%252Fwww.kindmeal.my%255C%252F%2522%257D%26from_login%3D1">Like 0</a></button>
+                </div>
+
+                <h3>How It All Began</h3>
+                <p>Founded by Andy Koh in 2008, PetFinder.my has been working hard with nationwide animal shelters, rescuers, and pet lovers to improve Malaysia's animal welfare. Much of our focus was centered upon pets — specifically, dogs and cats (alright, we have rabbits, hamsters, birds, fishes, turtles and chickens too).<br>
+
+                    However, there exists a very real burden for all people involved in animal welfare: the challenging demand of their time, effort and money. It is no easy task being a rescuer, and only a tiny fraction of animal lovers are able to be actively involved in such onerous tasks. How do we widen the circle of people in animal welfare, and make it so attractive and simple that anyone can participate?<br>
+                    
+                    Thus, the concept of KindMeal was born. A platform for anyone, irregardless of age, gender or financial status, to save lives anywhere, anytime. Without requiring any effort, time or money. In fact, they can even SAVE money. Sounds too good to be true, eh? Don't worry, this is not a pyramid scheme.</p>
+
+                <img src="https://www.kindmeal.my/images/about-1.jpg" />
+                <h3>Saving Lives With Delicious Meals</h3>
+                <p>How does eating food help save animal lives? Isn't food consumption just for saving our own lives?<br>
+
+                    Actually, the concept is really simple. Unless you are a vegetarian or vegan (which we salute you for), most of us are taking the lives of animals every single day. These animals — be it chickens, cows, lambs, ducks, pigs or fishes, are equally precious lives, and deserve our kindness and compassion as much as our beloved pets.<br>
+                    
+                    They experience joy, pain, hunger, love and sadness similar to us. Just because we are not able to communicate well with them, make them fetch a ball or keep them as pets in our homes, we tend to neglect their well-being and shift our focus to the so-called delicious taste of their meat.<br>
+                    
+                    We understand that it may not be easy to become a full vegetarian, but we strongly believe that it is feasible and achievable for all of us to reduce meat consumption, be it for compassion, health or environmental reasons. If we eat a couple of meat-free meals a week, it effectively means that we would be consistently saving the lives of many animals each month which would otherwise have ended up in our bellies.<br>
+                    
+                    We have been accustomed to delicacies and cuisines made of meat, but it need not remain so. There exists a wide variety of meat-free food that are delicious and nutritious, and more often than not, cost less than similar meals with meat.<br>
+                    
+                    So, how do we get started?</p>
+
+                <h3>The KindMeal Vision</h3>
+                <p>To promote this concept, our team worked round the clock for months and months (we forgot what the sun looks like) to introduce a unique and exciting platform to promote meat-free dining.<br>
+
+                    It is not sufficient to just tell people the benefits of meat-free dining. We have to give them good, practical reasons for trying it out, and it has to be simple, effective, and of course, enjoyable.<br>
+                    
+                    KindMeal attempts this by closely working with restaurants and cafes to offer attractive meat-free deals and cozy dining environments. Everyone loves good food and great bargains!<br>
+                    
+                    The restaurants need not be strictly vegetarian, as long as the deals and food they promote on KindMeal are meat-free. We want food lovers to be able to enjoy meat-free meals conveniently, including at their existing favorite restaurants.<br>
+                    
+                    Our platform offers a structured, effective way for restaurants to promote themselves, with a proper showcase of their shop, menu, deals and outlets. Getting and using deal coupons are extremely simple, it only takes ONE single click — no online payment, advance planning, coupon printing or reservation required. Even your pet can do it. Eating is all about spontaneity, right?<br>
+                    
+                    The KindWords and KindMoment features are carefully crafted to encourage viral promotion of restaurants and the meat-free dining experience, creatively leveraging on social media to strengthen the cause. Consumers can DOUBLE their deal discounts by sharing it on social media, and camwhore with the delicious food to show their friends (Malaysians LOVE taking photos of their food, perhaps even more than eating it).<br>
+                    
+                    Ultimately, it is a cycle of supply and demand. The more food lovers that try out such meals, the more encouraged restaurants are in introducing creative meat-free menu items, which would in turn attract more people into compassionate dining.<br>
+                    
+                    This will not happen overnight, but we have to start somewhere and help it materialize.</p>
+            </div>
+
+        </div>
+        
+        <div id="last" style="background-color: gainsboro;">
+            <img src="https://www.kindmeal.my/images/banner_whykindmeal.png"/>
+        </div>
+        
+        <footer id="footer">
+            <div id="foot">
+            <div>
+               <p >General</p>
+               <a href="./home.html">Home</a><br>
+               <a>Sign Up</a><br>
+               <a>Businesses/Restaurateurs</a><br>
+               <a>Advertising</a><br>
+               <a>About KindMeal</a><br>
+               <a>Help & FAQ</a><br>
+               <a>Terms & Condirions</a><br>
+               <a>Inspiring Partners</a><br>
+               <a>Lifestyle Ambassadors</a><br>
+               <a>Jobs & Careers</a><br>
+               <a>Contact Us</a><br>
+            </div>
+
+            <div>
+                <p>Features</p>
+                <a href="./home.html">Meat-Free Deals</a><br>
+                <a>Tasty Menus</a><br>
+                <a>Kind Moments</a><br>
+                <a>Meat-free Recipes</a><br>
+                <a>Member Recommendation</a><br>
+                <a>Featured Restaurants</a><br>
+                <a>Vegetarian & Vegan Directory</a><br>
+                <a>Food Map</a><br>
+                <a>Become A Superhero</a><br>
+                <a>Vegan News & Vegetarian Article</a><br>
+                <a>Latest Comments</a><br>
+             </div>
+             <div>
+                <p>Social Media</p>
+                <a>KindMeal Widget</a><br>
+                <a>FaceBook</a><br>
+                <a>Twitter</a><br>
+                <a>Instagram</a><br>
+             </div>
+
+             <div>
+                <p>Mobile</p>
+                <a href="./home.html">iPhone & iPod App</a><br>
+                <a>Android App</a><br>
+                <p></p>
+                <p>Exciting Promos</p><br>
+                <a>Gadhimai: Ending Mass Slaughter</a><br>
+                <a>Free Meals</a><br>
+                <a>Food Bloggers</a><br>
+                <a>Uber CHIRP</a><br>
+                <a>Jane Goodall Contest</a><br>
+                <a>Win Digi iPhone 6</a><br>
+                <a>Feed The Poor</a><br>
+                <a>Win Superhero Gifts</a><br>
+                <a>WIn an iPad Mini 3</a><br>
+             </div>
+
+             <div>
+                <p>PetFinder.my</p>
+                <a href="./home.html">Adopt A Pet</a><br>
+                <a>Smartphone Apps</a><br>
+                <a>WAGazine</a><br>
+                <a>Discussion Forum</a><br>
+                <a>Medical Fund</a><br>
+            </div>
+            </div>
+            <p style="text-align: center; color: white; padding-bottom: 20px;">Copyright © KindMeal.my, 2014 - 2022. All rights reserved.<br>
+                This website promotes compassionate, meat-free dining experience. Some food may contain eggs, dairy products or alcohol, please view individual listings for details.
+                </p>
+        </footer>
+
+    </body>
+</html>
+<script>
+
+</script>
