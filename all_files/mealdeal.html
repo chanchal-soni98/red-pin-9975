@@ -1,0 +1,410 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>mealdeal</title>
+        <style>
+            *{
+                font-family: Arial, Helvetica, sans-serif;
+                
+            }
+            #header{
+                width: 80%;
+                margin: auto;
+                margin-top: 20px;
+                display: flex;
+                justify-content: space-between;
+            }
+            #header img{
+                height: 40px;
+
+            }
+            #connect{
+                display: grid;
+                gap:10px;
+                grid-template-columns: repeat(4,1fr);
+            }
+            #connect button{
+                height: 25px;
+            }
+            nav{
+                margin-top: 5px;
+                background-color: #2bb673;
+                padding: 10px;
+            }
+            #navbar{
+                width: 80%;
+                margin: auto;
+                display: flex;
+                justify-content: space-between;
+                color: white;
+            }
+            #main{
+                background-color: gainsboro;
+                padding: 2%;
+
+            }
+            #first{
+                
+                width: 80%;
+                margin: auto;
+            }
+           #filter{
+            display: grid;
+            grid-template-columns: 180px 180px;
+            gap: 30px;
+           }
+            
+            #filter>select{
+                height: 2rem;
+                background-color: white;
+                box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+                border: 0px;
+                display: flex;
+  
+            }
+            #container{
+                width: 80%;
+                display: grid;
+                grid-template-columns: repeat(2,1fr);
+                gap: 30px;
+                margin: auto;
+                text-align: center;
+            }
+            #container>div{
+                margin-top: 20px;
+                margin-bottom: 20px;
+                border-radius: 5%;
+                box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+            }
+            #container>div>img{
+                border-radius: 5% 5%;
+            }
+            #last>img{
+                width: 80%;
+                margin-left: 10%;
+                height: 70%;
+            }
+            #footer{
+                background-color: #2bb673;
+                width: 100%;
+            }
+            #footer>#foot{
+                
+                display: grid;
+                gap: 30px;
+                color: white;
+                width: 80%;
+                margin: auto auto auto 10%;
+                grid-template-columns: repeat(5,1fr);
+            }
+
+        </style>
+    </head>
+    <body>
+        <header id="header">
+            <img src="https://www.kindmeal.my/images/logo-kindmeal.png"/>
+            <div id="socialMedia">
+                <img src="https://www.kindmeal.my/images/follow_blog_grey.png"/>
+                <img src="https://www.kindmeal.my/images/follow_facebook_grey.png"/>
+                <img src="https://www.kindmeal.my/images/follow_twitter_grey.png"/>
+            </div>
+            <div id="connect">
+                <button>Login</button>
+                <button>Facebook</button>
+                <button>Email</button>
+                <button>Signup</button>
+            </div>
+        </header>
+        <nav>
+            <div id="navbar">
+            <div id="home">Home</div>
+            <div id="mealdeal">Meal Deals</div>
+            <div>KindMoments</div>
+            <div>Hot Picks</div>
+            <div>Recipes</div>
+            <div>Directory</div>
+            <div>Article</div>
+            <div id="helppage">Help</div>
+            </div>
+        </nav>
+        <div id="main">
+        <div id="first">
+        <h1 style="color: grey;">Meat-Free Deals | Restaurants In Malaysia</h1>
+        <p style="color: grey;">Browse delicious meat-free, vegetarian deals from top restaurants and cafes! Just click on "Get Free Coupon" to obtain instant discounts and dine at the restaurants. No upfront payment, booking or printing is needed. If you share it on social media, you'll even DOUBLE your discount!</p>
+        <p></p>
+        <p style="color: gray;">Download our mobile app now to easily get coupons and start dining in a few seconds. Effortlessly save lives, health, environment and money now!</p>
+        
+        <div id="filter">
+            <select id="Restaurant">
+                <option>All Categories</option>
+                <option>Rawsome</option>
+                <option>The Black Cat Cafe</option>
+                <option>Ring Zhi Vegetarian Restaurant</option>
+                <option>Croutons Cafe</option>
+                <option>Tze Ern Vege Restaurant</option>
+                
+            </select>
+            <select id="location">
+                <option>All Location</option>
+                <option>Sungai Buloh, Selangor</option>
+                <option>Kepong Kuala Lumpur</option>
+                <option>Kuala Lumpur, Wilayah Persekutuan</option>
+                <option>Seri Kembangan, Seleangor</option>
+                <option>Mont Kiara, Kuala Lumpur</option>
+            </select>
+        </div> 
+        </div>
+    </div>
+    <div id="container"></div>
+    <div id="last" style="background-color: gainsboro;">
+        <img src="https://www.kindmeal.my/images/how_kindmeal_works.png"/>
+    </div>
+    
+    <footer id="footer">
+        <div id="foot">
+        <div>
+           <p >General</p>
+           <a href="./home.html">Home</a><br>
+           <a>Sign Up</a><br>
+           <a>Businesses/Restaurateurs</a><br>
+           <a>Advertising</a><br>
+           <a>About KindMeal</a><br>
+           <a>Help & FAQ</a><br>
+           <a>Terms & Condirions</a><br>
+           <a>Inspiring Partners</a><br>
+           <a>Lifestyle Ambassadors</a><br>
+           <a>Jobs & Careers</a><br>
+           <a>Contact Us</a><br>
+        </div>
+
+        <div>
+            <p>Features</p>
+            <a href="./home.html">Meat-Free Deals</a><br>
+            <a>Tasty Menus</a><br>
+            <a>Kind Moments</a><br>
+            <a>Meat-free Recipes</a><br>
+            <a>Member Recommendation</a><br>
+            <a>Featured Restaurants</a><br>
+            <a>Vegetarian & Vegan Directory</a><br>
+            <a>Food Map</a><br>
+            <a>Become A Superhero</a><br>
+            <a>Vegan News & Vegetarian Article</a><br>
+            <a>Latest Comments</a><br>
+         </div>
+         <div>
+            <p>Social Media</p>
+            <a>KindMeal Widget</a><br>
+            <a>FaceBook</a><br>
+            <a>Twitter</a><br>
+            <a>Instagram</a><br>
+         </div>
+
+         <div>
+            <p>Mobile</p>
+            <a href="./home.html">iPhone & iPod App</a><br>
+            <a>Android App</a><br>
+            <p></p>
+            <p>Exciting Promos</p><br>
+            <a>Gadhimai: Ending Mass Slaughter</a><br>
+            <a>Free Meals</a><br>
+            <a>Food Bloggers</a><br>
+            <a>Uber CHIRP</a><br>
+            <a>Jane Goodall Contest</a><br>
+            <a>Win Digi iPhone 6</a><br>
+            <a>Feed The Poor</a><br>
+            <a>Win Superhero Gifts</a><br>
+            <a>WIn an iPad Mini 3</a><br>
+         </div>
+
+         <div>
+            <p>PetFinder.my</p>
+            <a href="./home.html">Adopt A Pet</a><br>
+            <a>Smartphone Apps</a><br>
+            <a>WAGazine</a><br>
+            <a>Discussion Forum</a><br>
+            <a>Medical Fund</a><br>
+        </div>
+        </div>
+        <p style="text-align: center; color: white; padding-bottom: 20px;">Copyright © KindMeal.my, 2014 - 2022. All rights reserved.<br>
+            This website promotes compassionate, meat-free dining experience. Some food may contain eggs, dairy products or alcohol, please view individual listings for details.
+            </p>
+    </footer>
+    </body>
+</html>
+<script>
+    productsData = [
+    {id: 1,
+    image: 'https://www.kindmeal.my/photos/deal/5/590-3137-l.jpg',
+    rastaurant_name: 'Rawsome',
+    Location: "Sungai Buloh, Selangor",
+    discription: "Enjoy healthy, guilt-free, raw food meals artfully crafted for a nutritious and delicious experience. Indulge in a satisfying mea..",
+    rating: 4,
+    reviews: 30,
+    
+   },
+   {id: 2,
+    image: 'https://www.kindmeal.my/photos/deal/4/457-2109-l.jpg',
+    rastaurant_name: 'The Black Cat Cafe',
+    Location: "Kuala Lumpur, Wilayah Persekutuan",
+    discription: "Western and Asian cuisine, all prepared in our humble kitchen with utmost passion and love. On Weekdays, select ANY items from ..",
+    rating: 5,
+    reviews: 24,
+    
+   },
+   {id: 3,
+    image: 'https://www.kindmeal.my/photos/deal/5/506-2350-l.jpg',
+    rastaurant_name: 'Ring Zhi Vegetarian Restaurant',
+    Location: "Kepong Kuala Lumpur",
+    discription: "This place brings back memories to those days where we would have such delicious authentic meals for festive eats. Select from AN..",
+    rating: 5,
+    reviews: 13,
+    
+   },
+   {id: 4,
+    image: 'https://www.kindmeal.my/photos/deal/5/529-2478-l.jpg',
+    rastaurant_name: 'Croutons Cafe',
+    Location: "Seri Kembangan, Seleangor",
+    discription: "Croutons brings you a sumptuous variety of international cuisines. Indulge in any of the meat-free items from our menu below: • ..",
+    rating: 4.5,
+    reviews: 5,
+    
+   },
+   {id: 5,
+    image: 'https://www.kindmeal.my/photos/deal/6/657-4063-l.jpg',
+    rastaurant_name: 'Tze Ern Vege Restaurant',
+    Location:  "Mont Kiara, Kuala Lumpur",
+    rating: 4.5,
+    reviews: 7,
+    
+   },
+   {id: 6,
+    image: 'https://www.kindmeal.my/photos/deal/5/590-3137-l.jpg',
+    rastaurant_name: 'Rawsome',
+    Location: "Sungai Buloh, Selangor",
+    discription: "Enjoy healthy, guilt-free, raw food meals artfully crafted for a nutritious and delicious experience. Indulge in a satisfying mea..",
+    rating: 4,
+    reviews: 30,
+    
+   },
+   {id: 7,
+    image: 'https://www.kindmeal.my/photos/deal/4/457-2109-l.jpg',
+    rastaurant_name: 'The Black Cat Cafe',
+    Location: "Kuala Lumpur, Wilayah Persekutuan",
+    discription: "Western and Asian cuisine, all prepared in our humble kitchen with utmost passion and love. On Weekdays, select ANY items from ..",
+    rating: 5,
+    reviews: 24,
+    
+   },
+   {id: 8,
+    image: 'https://www.kindmeal.my/photos/deal/5/506-2350-l.jpg',
+    rastaurant_name: 'Ring Zhi Vegetarian Restaurant',
+    Location: "Kepong Kuala Lumpur",
+    discription: "This place brings back memories to those days where we would have such delicious authentic meals for festive eats. Select from AN..",
+    rating: 5,
+    reviews: 13,
+    
+   },
+   {id: 9,
+    image: 'https://www.kindmeal.my/photos/deal/5/529-2478-l.jpg',
+    rastaurant_name: 'Croutons Cafe',
+    Location: "Seri Kembangan, Seleangor",
+    discription: "Croutons brings you a sumptuous variety of international cuisines. Indulge in any of the meat-free items from our menu below: • ..",
+    rating: 4.5,
+    reviews: 5,
+    
+   },
+   {id: 10,
+    image: 'https://www.kindmeal.my/photos/deal/6/657-4063-l.jpg',
+    rastaurant_name: 'Tze Ern Vege Restaurant',
+    Location:  "Mont Kiara, Kuala Lumpur",
+    rating: 4.5,
+    reviews: 7,
+    
+   }
+];
+
+displayTable(productsData)
+
+document.querySelector("#Restaurant").addEventListener("change",restoFilter)
+document.querySelector("#location").addEventListener("change",locationFilter);
+
+function restoFilter(){
+    let selected = document.querySelector("#Restaurant").value;
+
+    if (selected == 'All Categories') {
+        displayTable(productsData);
+    }
+    else{
+     let filterList = productsData.filter(function(el){
+    return el.rastaurant_name== selected;
+     }) 
+     
+     displayTable(filterList);
+    }
+  }
+  function locationFilter(){    
+    let selected = document.querySelector("#location").value;
+
+if (selected == "All Location") {
+    displayTable(productsData);
+}
+else{
+ let filterList = productsData.filter(function(el){
+return el.Location== selected;
+ }) 
+ 
+ displayTable(filterList);
+}
+}
+  function displayTable(productsData){
+  document.getElementById("container").innerHTML="";
+let mainDiv = document.getElementById("container")
+//let product = JSON.parse(localStorage.getItem("products-data"))||[]
+for(let i=0;i<productsData.length;i++){
+    let div = document.createElement("div");
+    
+    let image = document.createElement("img");
+    image.setAttribute("src",productsData[i].image);
+    image.style.width="100%"
+
+    let rasto = document.createElement("h2");
+    rasto.innerText=productsData[i].rastaurant_name;
+
+    let location = document.createElement("p");
+    location.innerText = productsData[i].Location;
+
+    let review = document.createElement("p");
+    review.innerText = "Rating:-"+productsData[i].rating+ " "+ "By:-"+productsData[i].reviews;
+
+    div.append(image,rasto,location,review);
+    mainDiv.append(div);
+    //console.log(mainDiv);
+    //localStorage.setItem("products-data", JSON.stringify(product));
+}
+}
+
+    
+    document.getElementById("home").addEventListener("click", home);
+    document.getElementById("mealdeal").addEventListener("click", mealdeal);
+    document.getElementById("helppage").addEventListener("click", helppage);
+
+function home() {
+  event.preventDefault();
+  window.location.href = "home.html";
+
+}
+function mealdeal(){
+    event.preventDefault();
+    window.location.href="mealdeal.html";
+  
+}
+function helppage(){
+    event.preventDefault();
+    window.location.href="helppage.html";
+    console.log("help")
+}
+
+</script>

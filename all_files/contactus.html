@@ -1,0 +1,318 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>aboutkindmeal</title>
+    </head>
+    <style>
+                    *{
+                font-family: Arial, Helvetica, sans-serif;
+                
+            }
+            #header{
+                width: 80%;
+                margin: auto;
+                margin-top: 20px;
+                display: flex;
+                justify-content: space-between;
+            }
+            #header img{
+                height: 40px;
+
+            }
+            #connect{
+        display: grid;
+        gap:10px;
+        grid-template-columns: repeat(4,1fr);
+    }
+    #connect button{
+        height: 25px;
+    }
+            nav{
+                margin-top: 5px;
+                background-color: #2bb673;
+                padding: 10px;
+            }
+            #navbar{
+                width: 80%;
+                margin: auto;
+                display: flex;
+                justify-content: space-between;
+                color: white;
+            }
+        #main{
+            display: grid;
+            width: 80%;
+            margin: auto;
+            gap: 30px;
+            grid-template-columns: 20% 75%;
+        }
+        #one{
+            
+            text-align: center;
+        }
+        #one>div{
+            margin: 20px;
+            padding: 20px;
+            border-radius: 5%;
+            box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+        }
+        #one>div>img{
+            margin: auto;
+            width: 50%;
+            height: 50%;
+        }
+        #two{
+            margin-top: 20px;
+            margin-bottom: 20px;
+            padding: 30px;
+            height: auto;
+            box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+        }
+        #two>h1,#two>h2,#two>p{
+            margin: 25px;
+        }
+        #two>img{
+            width: 80%;
+            margin: auto 10% auto 10%;
+            border-radius: 5%;
+        }
+
+        #btn{
+            border: 0px;
+            color: White;
+            font-size: larger;
+            
+            width: 100px;
+            height: 40px;
+            margin: auto 40% auto 40%;
+            border-radius: 5%;
+        }
+        #social{
+            display: grid;
+            grid-template-columns: 70px 70px 70px;
+            gap: 40px
+        }
+        p{
+            color: gray;
+        }
+        #last>img{
+                width: 80%;
+                margin-left: 10%;
+                height: 70%;
+            }
+            form input, form select{
+                margin-top: 20px;
+                width: 50%;
+                height: 30px;
+            }
+            #msg{
+                height: 150px;
+            }
+            #btn{
+                background-color: red;
+                color: white;
+                font-size: large;
+                margin-left: 35%;
+                border: 0px;
+                width: 25%;
+                height: 35px;
+                border-radius: 5%;
+            }
+            #footer{
+                background-color: #2bb673;
+                width: 100%;
+            }
+            #footer>#foot{
+                
+                display: grid;
+                gap: 30px;
+                color: white;
+                width: 80%;
+                margin: auto auto auto 10%;
+                grid-template-columns: repeat(5,1fr);
+            }
+
+    </style>
+    <body>
+        <header id="header">
+            <img src="https://www.kindmeal.my/images/logo-kindmeal.png"/>
+            <div id="socialMedia">
+                <img src="https://www.kindmeal.my/images/follow_blog_grey.png"/>
+                <img src="https://www.kindmeal.my/images/follow_facebook_grey.png"/>
+                <img src="https://www.kindmeal.my/images/follow_twitter_grey.png"/>
+            </div>
+            <div id="connect">
+                <button>Login</button>
+                <button>Facebook</button>
+                <button>Email</button>
+                <button>Signup</button>
+            </div>
+        </header>
+        <nav>
+            <div id="navbar">
+            <div>Home</div>
+            <div>Meal Deals</div>
+            <div>KindMoments</div>
+            <div>Hot Picks</div>
+            <div>Recipes</div>
+            <div>Directory</div>
+            <div>Article</div>
+            <div>Help</div>
+            </div>
+        </nav>
+        <div id="main">
+            <div id="one">
+                <div>
+                    <img src="https://www.kindmeal.my/images/join_normal.png"/><br>
+                    <a href="helppage.html">General Help</a>
+                </div>
+                <div>
+                    <img src="https://www.kindmeal.my/images/join_shop.png"/><br>
+                    <a href="advertising.html">Merchant Help</a>
+                </div>
+                <div>
+                    <img src="https://www.kindmeal.my/images/icon-megaphone.png"/><br>
+                    <a href="advertising.html">Advertising</a>
+                </div>
+                <div>
+                    <img src="https://www.kindmeal.my/images/about_us.png"/><br>
+                    <a href="">About KindMeal</a>
+                </div>
+                <div>
+                    <img src="https://www.kindmeal.my/images/about_hero.png"/><br>
+                    <a href="">Superhero Guide</a>
+                </div>
+                <div>
+                    <img src="https://www.kindmeal.my/images/contact.png"/><br>
+                    <a href="">Contact Us</a>
+                </div>
+            </div>
+
+            <div id="two">
+                <h3 style="text-align: center;" >Contact KindMeal.my</h3>
+                <p style="text-align: center;">Do you have any questions, suggestions or require assitance? Please tell us more about it. We'd love to hear from you!</p>
+                <form>
+                    <label>Name <input type="text" id="name"> </label><br>
+                    <label>Email <input type="email" id="email"> </label><br>
+                    <label>Phone <input type="number" id="phone"> </label><br>
+                    <label>Topic
+                    <select id="topic">
+                        <option>---[Select A Topic]---</option>
+                        <option>General Enquiry</option>
+                        <option>Account Issues</option>
+                        <option>Advertising</option>
+                        <option>Ambassador Program</option>
+                        <option>Bug Report</option>
+                        <option>Contest</option>
+                        <option>Feedback & Suggestions</option>
+                        <option>Free Meels</option>
+                        <option>Bloggers</option>
+                        <option>Merchant Enquiry</option>
+                        <option>Press/Media Enquiry</option>
+                        <option>Mobile App</option>
+                        <option>Sponsorship / collaboration</option>
+                        <option>Unsubscibe</option>
+                        <option>Vacancy</option>
+                        <option>others</option>
+                    </select>
+                </label><br>
+                <label>Message <input id="msg"></label><br>
+                <input id="btn" type="submit" value="Send Message">
+                </form>
+            </div>
+
+        </div>
+        
+        <div id="last" style="background-color: gainsboro;">
+            <img src="https://www.kindmeal.my/images/banner_whykindmeal.png"/>
+        </div>
+        
+        <footer id="footer">
+            <div id="foot">
+            <div>
+               <p >General</p>
+               <a href="./home.html">Home</a><br>
+               <a>Sign Up</a><br>
+               <a>Businesses/Restaurateurs</a><br>
+               <a>Advertising</a><br>
+               <a>About KindMeal</a><br>
+               <a>Help & FAQ</a><br>
+               <a>Terms & Condirions</a><br>
+               <a>Inspiring Partners</a><br>
+               <a>Lifestyle Ambassadors</a><br>
+               <a>Jobs & Careers</a><br>
+               <a>Contact Us</a><br>
+            </div>
+
+            <div>
+                <p>Features</p>
+                <a href="./home.html">Meat-Free Deals</a><br>
+                <a>Tasty Menus</a><br>
+                <a>Kind Moments</a><br>
+                <a>Meat-free Recipes</a><br>
+                <a>Member Recommendation</a><br>
+                <a>Featured Restaurants</a><br>
+                <a>Vegetarian & Vegan Directory</a><br>
+                <a>Food Map</a><br>
+                <a>Become A Superhero</a><br>
+                <a>Vegan News & Vegetarian Article</a><br>
+                <a>Latest Comments</a><br>
+             </div>
+             <div>
+                <p>Social Media</p>
+                <a>KindMeal Widget</a><br>
+                <a>FaceBook</a><br>
+                <a>Twitter</a><br>
+                <a>Instagram</a><br>
+             </div>
+
+             <div>
+                <p>Mobile</p>
+                <a href="./home.html">iPhone & iPod App</a><br>
+                <a>Android App</a><br>
+                <p></p>
+                <p>Exciting Promos</p><br>
+                <a>Gadhimai: Ending Mass Slaughter</a><br>
+                <a>Free Meals</a><br>
+                <a>Food Bloggers</a><br>
+                <a>Uber CHIRP</a><br>
+                <a>Jane Goodall Contest</a><br>
+                <a>Win Digi iPhone 6</a><br>
+                <a>Feed The Poor</a><br>
+                <a>Win Superhero Gifts</a><br>
+                <a>WIn an iPad Mini 3</a><br>
+             </div>
+
+             <div>
+                <p>PetFinder.my</p>
+                <a href="./home.html">Adopt A Pet</a><br>
+                <a>Smartphone Apps</a><br>
+                <a>WAGazine</a><br>
+                <a>Discussion Forum</a><br>
+                <a>Medical Fund</a><br>
+            </div>
+            </div>
+            <p style="text-align: center; color: white; padding-bottom: 20px;">Copyright © KindMeal.my, 2014 - 2022. All rights reserved.<br>
+                This website promotes compassionate, meat-free dining experience. Some food may contain eggs, dairy products or alcohol, please view individual listings for details.
+                </p>
+        </footer>
+
+    </body>
+</html>
+<script>
+let customerData = JSON.parse(localStorage.getItem("contactus"))||[];
+let form = document.querySelector("form");
+form.addEventListener("submit",function(){
+    event.preventDefault();
+    let obj = {
+        name: form.name.value,
+        email: form.email.value,
+        phone: form.phone.value,
+        topic: form.topic.value,
+        msg: form.msg.value
+    }
+    console.log(obj);
+    customerData.push(obj)
+    localStorage.setItem("contactus", JSON.stringify(customerData));
+});
+</script>
